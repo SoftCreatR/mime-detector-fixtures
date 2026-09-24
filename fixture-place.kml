@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark><name>Berlin</name><Point><coordinates>13.4050,52.5200</coordinates></Point></Placemark>
+</kml>
