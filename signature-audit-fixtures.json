@@ -85,6 +85,38 @@
       "generator": "Serialized FAT_MAGIC_64 header wrapping fixture-i386.macho at offset 4096",
       "license": "MIT; see file-type-fixtures.LICENSE",
       "source": "https://raw.githubusercontent.com/sindresorhus/file-type/32b087c6eaa2c03a083f599cf2f91fe9d1aba452/fixture/fixture-i386.macho"
+    },
+    "fixture-minimal.caf": {
+      "sha256": "b46b994a061a28f7cd562e148cf7d81865cc1a7b19ad6fb0214e7e10a119d44d",
+      "generator": "FFmpeg generated 20 ms mono silence, pcm_s16be, caf"
+    },
+    "fixture-compressed.aifc": {
+      "sha256": "4a76791a2d8e101527ffa217003a5f055701bb14e3bc048c9177107f63deb7e4",
+      "generator": "FFmpeg generated 20 ms mono silence, pcm_s16le, aiff"
+    },
+    "fixture-extended-header.opus": {
+      "sha256": "f1c2345572aeb24fa642d8697f37b4ba6b2977926a56ed96fe1a2f17bc6da567",
+      "generator": "FFmpeg libopus silence; compatible minor version 2 ID header extended to 300 bytes; Ogg CRCs recalculated"
+    },
+    "fixture-variable-sizes.mkv": {
+      "sha256": "b0b32b0788ce58040cf46cc4f5c8c1fb9daf6195e50fcfa5f9b198d14adc7fb8",
+      "generator": "FFmpeg ffv1 single black frame; EBML root size width 2, DocType size width 8"
+    },
+    "fixture-variable-sizes.webm": {
+      "sha256": "601940c79703c0a0184e464102880e487e4b03542c1c86dd5f58e4a3427eeabf",
+      "generator": "FFmpeg libvpx single black frame; EBML root size width 8, DocType size width 2"
+    },
+    "fixture-no-data.awb": {
+      "sha256": "33e725e42bd13d8a1d28229a2ad4e8569215269e9d26a9917cd029d2651e7ebf",
+      "generator": "RFC 4867 single-channel AMR-WB file containing ten complete no-data frames"
+    },
+    "fixture-multichannel.amr": {
+      "sha256": "0ef432f94c085c32c897d2779a95eb9472de17e344023c999baec50b9d5883a5",
+      "generator": "RFC 4867 two-channel file containing ten complete no-data frame-blocks"
+    },
+    "fixture-multichannel.awb": {
+      "sha256": "94382cf33951b573d97de60f99ebf1d24eb0d47bdd61fe8ee54a17ae1373619d",
+      "generator": "RFC 4867 two-channel file containing ten complete no-data frame-blocks"
     }
   },
   "references": {
@@ -97,6 +129,11 @@
     "pcap": "https://www.ietf.org/archive/id/draft-ietf-opsawg-pcap-06.html",
     "lzop": "https://www.lzop.org/",
     "zlib": "https://www.rfc-editor.org/rfc/rfc6713",
-    "mach-o": "https://github.com/apple-oss-distributions/cctools/blob/main/include/mach-o/fat.h"
+    "mach-o": "https://github.com/apple-oss-distributions/cctools/blob/main/include/mach-o/fat.h",
+    "ogg": "https://www.rfc-editor.org/rfc/rfc3533.html",
+    "opus": "https://www.rfc-editor.org/rfc/rfc7845.html",
+    "ebml": "https://www.rfc-editor.org/rfc/rfc8794.html",
+    "amr": "https://www.rfc-editor.org/rfc/rfc4867.html",
+    "caf": "https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html"
   }
 }
