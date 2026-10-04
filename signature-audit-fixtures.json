@@ -1,0 +1,102 @@
+{
+  "description": "Generated complete files and upstream Mach-O samples for the signature audit.",
+  "fixtures": {
+    "fixture-ascii.pbm": {
+      "sha256": "1b8fb6e8843c222fd92bc7fb2d0bb34678eb0cdf2036c5c2eda10c1bc23cd28a",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-ascii.pgm": {
+      "sha256": "6a688f11307b8bc8cf0178779e4a6ad1bd733a9338212053ea1fcce60c6e2da8",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-ascii.ppm": {
+      "sha256": "ef209756ebb5473323465dbac74a75b7a028467103dd790db340072fadd4cc91",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-big-endian.pcapng": {
+      "sha256": "b39d5dba056d2fdd1cd7b26cd20b513296703225f212cfb4223029921d1f16b9",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-binary.pbm": {
+      "sha256": "a293aabff7eae7f96579e5e6bec8665d16b608f2a66a4d7053f7d6b432224291",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-binary.pgm": {
+      "sha256": "7bf03baf85a91015a77d93c5421153238f52228c9aa1434ede52096585dec004",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-binary.ppm": {
+      "sha256": "c3f6f4b07a03a443600d97f1119ab2d83b7442456444a88a08dc0bd040f2797f",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-little-endian.pcapng": {
+      "sha256": "461a8c9af719203db11d6b883f91b78afcc84661b85c196d293ea2d2987170ce",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-minimal.dds": {
+      "sha256": "366f4eea5a2487a06bb4f10bee79389c29c7827962d7d08386b1f68016cb9523",
+      "generator": "ImageMagick convert 2x2 solid #335577"
+    },
+    "fixture-minimal.djvu": {
+      "sha256": "778221c4f9c3bfb4182be6d6801fb38c416db515b5c32679521a520cffa017d8",
+      "generator": "DjVuLibre c44 3.5.28, generated solid-color PPM"
+    },
+    "fixture-minimal.exr": {
+      "sha256": "3ec7397b416a76cfd2ed5c6397a429710b4b8b8dfb430942092aea40a94c8876",
+      "generator": "ImageMagick convert 2x2 solid #335577"
+    },
+    "fixture-minimal.lzo": {
+      "sha256": "e71cd9bfe30e7635828feda80de68f9b5d98f087ae24b06d8cf58712833edaba",
+      "generator": "lzop 1.04, generated solid-color PPM"
+    },
+    "fixture-minimal.qoi": {
+      "sha256": "6cf3adbe271d56385785b7a63480918cc6187a09df4517f0c355244a1fe8d279",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-nanosecond-big.pcap": {
+      "sha256": "edb8744bd32b2509353b77de13de2444215374e59e36682321fb11767d69e456",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-nanosecond-little.pcap": {
+      "sha256": "d394b5d3bec5bcd7d5798629a01948d363d9411756781f5616b28b0c6c33fd67",
+      "generator": "Serialized according to the format specification"
+    },
+    "fixture-i386.macho": {
+      "sha256": "06c9e4d4baaa1f48f39e1468427f6f3359f4f093df73ae73abf6c31243e706cf",
+      "source": "https://raw.githubusercontent.com/sindresorhus/file-type/32b087c6eaa2c03a083f599cf2f91fe9d1aba452/fixture/fixture-i386.macho",
+      "license": "MIT; see file-type-fixtures.LICENSE"
+    },
+    "fixture-ppc7400.macho": {
+      "sha256": "5a245c9ef11a6e4f0658d90fd3c60d30335d3dd8f45332da19030d933c795d54",
+      "source": "https://raw.githubusercontent.com/sindresorhus/file-type/32b087c6eaa2c03a083f599cf2f91fe9d1aba452/fixture/fixture-ppc7400.macho",
+      "license": "MIT; see file-type-fixtures.LICENSE"
+    },
+    "fixture-fat-binary.macho": {
+      "sha256": "f55638fe204b0a4e068561e57e457022181edec79aef8303873e39dbfb17832a",
+      "source": "https://raw.githubusercontent.com/sindresorhus/file-type/32b087c6eaa2c03a083f599cf2f91fe9d1aba452/fixture/fixture-fat-binary.macho",
+      "license": "MIT; see file-type-fixtures.LICENSE"
+    },
+    "fixture-minimal.zlib": {
+      "sha256": "c9e6363ee34247701ba36777e76846e583853208c4272182e408d4b5826239f3",
+      "generator": "Python zlib.compress, generated fixture text"
+    },
+    "fixture-fat64.macho": {
+      "sha256": "1f9dbf4f77518c696cc52722fad6e9f8c57adb3faa490fe2b07a6e31fc2d7f9d",
+      "generator": "Serialized FAT_MAGIC_64 header wrapping fixture-i386.macho at offset 4096",
+      "license": "MIT; see file-type-fixtures.LICENSE",
+      "source": "https://raw.githubusercontent.com/sindresorhus/file-type/32b087c6eaa2c03a083f599cf2f91fe9d1aba452/fixture/fixture-i386.macho"
+    }
+  },
+  "references": {
+    "qoi": "https://qoiformat.org/qoi-specification.pdf",
+    "dds": "https://learn.microsoft.com/en-us/windows/win32/direct3ddds/dds-header",
+    "exr": "https://openexr.com/en/latest/OpenEXRFileLayout.html",
+    "djvu": "https://djvu.sourceforge.net/doc/man/c44.html",
+    "netpbm": "https://netpbm.sourceforge.net/doc/ppm.html",
+    "pcapng": "https://www.ietf.org/archive/id/draft-ietf-opsawg-pcapng-05.html",
+    "pcap": "https://www.ietf.org/archive/id/draft-ietf-opsawg-pcap-06.html",
+    "lzop": "https://www.lzop.org/",
+    "zlib": "https://www.rfc-editor.org/rfc/rfc6713",
+    "mach-o": "https://github.com/apple-oss-distributions/cctools/blob/main/include/mach-o/fat.h"
+  }
+}
